@@ -1,10 +1,13 @@
 package main;
 
+import backjoon.array.Level1;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Level1 l = new Level1();
+		l.main();
 	}
 
 }
