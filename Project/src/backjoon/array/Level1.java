@@ -41,5 +41,6 @@ public class Level1 {
 		}
 		
 		System.out.printf("%d %d", min, max);
+		sc.close();
 	}
 }
