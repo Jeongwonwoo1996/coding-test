@@ -7,6 +7,21 @@ public class Stack {
 	private int top = 0;
 	private String[] stack = new String[MAX_SIZE];
 	
+	public void main() {
+		Stack elevator = new Stack();
+		//elevator.init();
+
+		elevator.push("우종성");
+		elevator.push("정원우");
+
+		int number = 0;
+		while (elevator.isEmpty() == false) {
+			number++;
+			
+			System.out.println("내린 사람 순서 : " + number + " " + elevator.pop());
+		}
+	}
+	
 	public void init() {
 		top = 0;
 	}
